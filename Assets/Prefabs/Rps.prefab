@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 6217353779990692379}
   - component: {fileID: 6217353779990692372}
-  - component: {fileID: 6217353779990692373}
   - component: {fileID: -4431660573139499729}
   - component: {fileID: 7782091329444587762}
+  - component: {fileID: 6217353779990692373}
+  - component: {fileID: 7295891116819893741}
   m_Layer: 0
   m_Name: Rps
   m_TagString: Untagged
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 6217353779990692378}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.75, y: 0.75, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -87,26 +88,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6217353779990692373
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6217353779990692378}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 434a2c6d2a04e2f44a9c7481eff5649d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rpsType: 2
-  rockSprite: {fileID: 21300000, guid: 3d6cfec59e7bac04da744fe460d9ea41, type: 3}
-  paperSprite: {fileID: 21300000, guid: 8669a8d565961b44fb7dc08d181e25e5, type: 3}
-  scissorsSprite: {fileID: 21300000, guid: f22f8c12007ab774cbf7a0ca27cd82d0, type: 3}
-  upBoarder: 0
-  downBoarder: 0
-  leftBoarder: 0
-  rightBoarder: 0
 --- !u!61 &-4431660573139499729
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -117,7 +98,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -153,4 +134,38 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
+--- !u!114 &6217353779990692373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6217353779990692378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 434a2c6d2a04e2f44a9c7481eff5649d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isChanged: 0
+  isRpsTypeRandom: 0
+  rpsType: 2
+  rockSprite: {fileID: 21300000, guid: 3d6cfec59e7bac04da744fe460d9ea41, type: 3}
+  paperSprite: {fileID: 21300000, guid: 8669a8d565961b44fb7dc08d181e25e5, type: 3}
+  scissorsSprite: {fileID: 21300000, guid: f22f8c12007ab774cbf7a0ca27cd82d0, type: 3}
+--- !u!114 &7295891116819893741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6217353779990692378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c425db8b143decd4cbcc11305d2ff0c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isTargetLocked: 0
+  targetLocation: {x: 0, y: 0, z: 0}
+  enemyLocation: {x: 0, y: 0, z: 0}
+  enemyTransform: {fileID: 0}
