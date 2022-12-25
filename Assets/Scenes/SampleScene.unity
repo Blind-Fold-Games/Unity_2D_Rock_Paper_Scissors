@@ -307,6 +307,9 @@ MonoBehaviour:
   paperTransforms: []
   scissorsTransforms: []
   rps_Movements: []
+  RockSound: {fileID: 0}
+  PaperSound: {fileID: 8300000, guid: 26cbdf564e53ee14b95e791cf0b4fe69, type: 3}
+  ScissorSound: {fileID: 8300000, guid: e08349c6182807843a4987093e333d83, type: 3}
   upBoarder: 0
   downBoarder: 0
   leftBoarder: 0

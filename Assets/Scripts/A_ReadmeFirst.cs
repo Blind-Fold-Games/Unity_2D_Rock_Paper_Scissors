@@ -20,7 +20,8 @@
  * Game development is my dream and I love it
  * The only problem I have is that there are no gamedev companies in my country
  * And not many remote international companies will hire someone in Iraq
- * If you have a job for me, please let me know through my email
+ * If you have a job for me, please let me know by contacting my email
+ * Govand@blindfoldgames.co
  * Govandzawa@gmail.com
  * 
  * 
@@ -28,10 +29,25 @@
  * Youtube: https://www.youtube.com/@blindfoldgames
  * Twitch: https://www.twitch.tv/blindfold_games
  * Website: http://blindfoldgames.co
- * Email: Govandzawa@gmail.com
+ * Email1: Govand@blindfoldgames.co
+ * Email2: Govandzawa@gmail.com
  * 
  * 
  * Some of my mobile works: https://play.google.com/store/apps/dev?id=5378893132056663070
  * 
  * My courses on skillshare: https://www.skillshare.com/en/tedx?teacherRef=27850212&via=teacher-referral-channel&gr_tch_ref=on&gr_trp=off&utm_campaign=teacher-referral-channel&utm_source=ShortUrl&utm_medium=teacher-referral-channel&name=Govand-Game-Studios&username=27850212
+ * 
+ * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ * 
+ * 
+ * [DONATE ----- CRYPTO]
+ * 
+ * TETHER USDT
+ * Address: TYPEL3BqNMcJgqmcFnQbig4v9T2FwJDD9X
+ * Network: TRX [Tron TRC20]
+ * 
+ * 
+ * BITCOIN BTC
+ * Address: 3FNEkwmaGMvPNJw9bKEnxRBCdBEi6iP4nv
+ * Network: BTC [Bitcoin BTC]
  */

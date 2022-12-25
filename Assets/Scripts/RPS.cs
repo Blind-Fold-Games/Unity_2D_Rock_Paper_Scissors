@@ -6,6 +6,10 @@ public class RPS : MonoBehaviour
     //Reference to gameData Script
     private GameData gameData;
 
+    //Audio Source on this game object
+    private AudioSource audioSource;
+    
+
 
     //rpsType: 0 = Rock; 1 = Paper; 2 = Scissors;
     public int rpsType;
@@ -24,6 +28,7 @@ public class RPS : MonoBehaviour
     {
         gameData = GameData.instance;        
         spriteRenderer = GetComponent<SpriteRenderer>();
+        audioSource = GetComponent<AudioSource>();
 
         InitializeTypes();
     }
@@ -89,6 +94,9 @@ public class RPS : MonoBehaviour
                 gameData.AddPaper(transform);
                 gameData.RemoveRock(transform);
 
+                //Play Paper Aduio
+                audioSource.clip = gameData.PaperSound;
+                audioSource.Play();
             }          
         }
         //If we are paper then check if we hit scissor, if so then change oursef to scissor
@@ -101,6 +109,9 @@ public class RPS : MonoBehaviour
                 gameData.AddScissor(transform);
                 gameData.RemovePaper(transform);
 
+                //Play Scissor Aduio
+                audioSource.clip = gameData.ScissorSound;
+                audioSource.Play();
             }
         }
         //If we are scissor then check if we hit rock, if so then change oursef to rock
@@ -113,6 +124,9 @@ public class RPS : MonoBehaviour
                 gameData.AddRock(transform);
                 gameData.RemoveScissor(transform);
 
+                //Play Rock Aduio
+                audioSource.clip = gameData.RockSound;
+                audioSource.Play();
             }
         }
     }

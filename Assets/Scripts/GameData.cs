@@ -16,6 +16,12 @@ public class GameData : MonoBehaviour
     //A list that contains the RPS_Movement script of every rps - to use it in the RemoveTargets() script
     [SerializeField] private List<RPS_Movement> rps_Movements;
 
+    //Shared Sounds
+    public AudioClip RockSound;
+    public AudioClip PaperSound;
+    public AudioClip ScissorSound;
+
+
     //Variables that hold the values of the screen border
     public float upBoarder;
     public float downBoarder;
