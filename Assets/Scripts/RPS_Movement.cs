@@ -17,6 +17,8 @@ public class RPS_Movement : MonoBehaviour
     [SerializeField] Vector3 targetLocation;    
     [SerializeField] Transform enemyTransform;
 
+    [SerializeField] private float ourY;
+
 
     //Used to calculate the size and borders of the screen
     private float upBoarder;
@@ -66,6 +68,8 @@ public class RPS_Movement : MonoBehaviour
         {
             targetLocation = enemyTransform.position - transform.position;
 
+            ourY = transform.position.y;
+
             //Wierd movement of jittering while also moving to a target. 
             //The number on the right (currently 35) is used to determine the distance of jitterness. Mess around with it to see the effect
             //To make it jittery we used random between 0 and the desired value
@@ -94,8 +98,7 @@ public class RPS_Movement : MonoBehaviour
             //move around when you have no target
             //make sure you don't pass the screen borders
             position = position + new Vector2((float)Random.Range(-1, 2) / 20, (float)Random.Range(-1, 2) / 45);
-            position = new Vector3(Mathf.Clamp(position.x, leftBoarder, rightBoarder)
-                , Mathf.Clamp(position.y, downBoarder, upBoarder), 0);
+            position = new Vector3(Mathf.Clamp(position.x, leftBoarder, rightBoarder) , Mathf.Clamp(position.y, downBoarder, upBoarder), 0);
         }
 
         transform.position = position;

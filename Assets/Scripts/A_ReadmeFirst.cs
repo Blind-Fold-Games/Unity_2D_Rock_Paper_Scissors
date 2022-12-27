@@ -40,6 +40,14 @@
  * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
  * 
  * 
+ * Want to buy me a coffe? 
+ * 
+ * 
+ * [DONATE ----- PAYPAL]
+ * https://www.paypal.com/paypalme/GovandMr23
+ * 
+ * 
+ * 
  * [DONATE ----- CRYPTO]
  * 
  * TETHER USDT
@@ -50,4 +58,6 @@
  * BITCOIN BTC
  * Address: 3FNEkwmaGMvPNJw9bKEnxRBCdBEi6iP4nv
  * Network: BTC [Bitcoin BTC]
+ * 
+ * Thank you!
  */

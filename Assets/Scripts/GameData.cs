@@ -48,6 +48,7 @@ public class GameData : MonoBehaviour
                 if (distance < enemyDistance)
                 {
                     enemyTransform = t;
+                    enemyDistance = distance;
                 }
             }
             return enemyTransform;
@@ -66,6 +67,7 @@ public class GameData : MonoBehaviour
                 if (distance < enemyDistance)
                 {
                     enemyTransform = t;
+                    enemyDistance = distance;
                 }
             }
             return enemyTransform;
@@ -84,6 +86,7 @@ public class GameData : MonoBehaviour
                 if (distance < enemyDistance)
                 {
                     enemyTransform = t;
+                    enemyDistance = distance;
                 }
             }
             return enemyTransform;

@@ -57,27 +57,26 @@ public class RPS : MonoBehaviour
 
 
     //When something comes in contact with this gameobject
-    //PS: Tried OnCollisionEnter and OnTriggerEnter i prefered the OnCollisionStay for this situation as it is more precise and suitable
-    private void OnCollisionStay2D(Collision2D other)
+    //PS: Tried OnTriggerEnter and OnTriggerEnter i prefered the OnTriggerStay for this situation as it is more precise and suitable
+    private void OnTriggerStay2D(Collider2D other)
     {
         //If the game is not paused
         if (LevelManager.instance.isGameOn)
         {
             //Check if the thing we hit is either rock paper or scissor
-            int newType = other.collider.GetComponent<RPS>().rpsType;
+            int newType = other.GetComponent<RPS>().rpsType;
 
             //If thier type is different than our type
             if (newType != rpsType)
             {
                 //Check if we need to change our type
                 ChangeType(newType);
-                
+
                 //Removes the targets which is used in RPS_Movement script
                 //PS:There are better ways to handle this for sure
                 gameData.RemoveTargets();
             }
         }
-        
     }
 
 
