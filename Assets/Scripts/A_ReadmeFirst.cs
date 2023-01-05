@@ -29,6 +29,10 @@
  * Youtube: https://www.youtube.com/@blindfoldgames
  * Twitch: https://www.twitch.tv/blindfold_games
  * Website: http://blindfoldgames.co
+ * TikTok: https://www.tiktok.com/@blindfoldgames
+ * Instagram: https://www.instagram.com/blindfoldgames
+ * Facebook: https://www.facebook.com/gaming/BlindfoldGames.official
+ * Discord: https://discord.gg/m7PGparkWx
  * Email1: Govand@blindfoldgames.co
  * Email2: Govandzawa@gmail.com
  * 
@@ -40,7 +44,7 @@
  * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
  * 
  * 
- * Want to buy me a coffe? 
+ * Want to buy me a coffee? 
  * 
  * 
  * [DONATE ----- PAYPAL]
